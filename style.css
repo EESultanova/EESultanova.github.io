@@ -1,0 +1,109 @@
+/* <img src="https://img.freepik.com/free-vector/abstract-background-with-a-minimalist-design_1048-13338.jpg?size=626&ext=jpg" alt="фон1">
+  <img src="https://img5.goodfon.ru/wallpaper/nbig/0/1c/derevo-dereviannyi-fon-beloe-derevo-tekstura-fotofon.jpg" alt="фон2">
+  <img src="https://img.freepik.com/free-vector/white-abstract-background-in-3d-paper-style_23-2148403778.jpg?size=626&ext=jpg" alt="фон3">
+   */
+
+  /* 
+  Здесь анимация для верхней надписи */
+  @keyframes header_anim {
+    from {
+      transform: translateX(-120%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .header__title {
+    transform: translateX(0);
+    animation-name: header_anim;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-transform: uppercase;
+    color: rgb(238, 238, 240);
+    align-self: center;
+  }
+
+  h1.header__title {
+    font-weight: 700;
+    font-size: 6em;
+}
+ .header { 
+    display: flex;
+    min-height: 100vh;
+    padding: 8px 50px;
+    background-color: rgb(106, 80, 117);
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-weight: 700;
+ }
+  /* конец анимации */
+
+  * {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+  .links {
+    width: 200px;
+    margin-right: 100px;
+}
+  }
+
+  .Post {
+    width: 800px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+   h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+  }
+
+.content {
+  background: #6A5075;
+  background: -moz-linear-gradient(top, #6A5075 0%, #A57DB6 50%, #C5A53D 100%);
+  background: -webkit-linear-gradient(top, #6A5075 0%, #A57DB6 50%, #C5A53D 100%);
+  background: linear-gradient(to bottom, #6A5075 0%, #A57DB6 50%, #C5A53D 100%);
+}
+  .Post1 {
+    margin-top: 40px;
+  }
+
+  .Post3 {
+    margin-bottom: 30px;
+  }
+
+ h2 {
+  text-align:left;
+  font-size: 24;
+  line-height: 26px;
+  
+}
+
+.pers {
+  margin-right: 100px;
+}
+
+.Post p {
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #C5A53D;
+}
+  
+
+ 
